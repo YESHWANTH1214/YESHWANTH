@@ -1,0 +1,22 @@
+name= input("your name")
+age= int (input("you age"))
+a= int (input("you tamil mark"))
+b= int (input("you english mark"))
+c= int (input("you businessmath"))
+
+total= a + b + c
+per= total / 3
+
+print("your name;",name)
+print("your age;",age)
+print("your total;",total)
+print("your per;",per)
+
+a= input("re-type your naame")
+b= int (input("re-type your age"))
+c= int (input("re-tyoe your total mark"))
+        
+if (c/3==0):
+        print ("PASS")
+else:
+    print ("TRYING")
